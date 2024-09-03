@@ -1,7 +1,7 @@
 import dash
 from dash.dependencies import Input, Output
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import html
+from dash import dcc
 import dash_alternative_viz as dav
 import plotly_express as px
 import altair as alt

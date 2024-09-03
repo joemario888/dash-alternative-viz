@@ -43,7 +43,42 @@
           "name": "func"
         },
         "required": false,
-        "description": "Dash-assigned callback that should be called whenever any of the\nproperties change"
+        "description": "Dash-assigned callback that should be called whenever any of the\r\nproperties change"
+      }
+    }
+  },
+  "src/lib/components/FusionChart.react.js": {
+    "description": "FusionChart renders FusionCharts.js JSON. Test",
+    "displayName": "FusionChart",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "constructorType": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "'chart', 'stockChart', 'mapChart', 'ganttChart'"
+      },
+      "options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The FusionCharts chart description"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
       }
     }
   },
@@ -78,7 +113,7 @@
           "name": "func"
         },
         "required": false,
-        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
       }
     }
   },
@@ -106,7 +141,7 @@
           "name": "func"
         },
         "required": false,
-        "description": "Dash-assigned callback that should be called whenever any of the\nproperties change"
+        "description": "Dash-assigned callback that should be called whenever any of the\r\nproperties change"
       }
     }
   },
@@ -147,7 +182,7 @@
           "name": "func"
         },
         "required": false,
-        "description": "Dash-assigned callback that should be called whenever any of the\nproperties change"
+        "description": "Dash-assigned callback that should be called whenever any of the\r\nproperties change"
       }
     }
   }
